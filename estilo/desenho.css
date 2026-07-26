@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+boby{
+    margin: 0; 
+    padding: 0;
+    color: #ffff;
+    line-height: 1.4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/* header{
+    border: 3px solid blue;
+    width: 95%;
+    margin: auto;
+}
+input{
+    border: 3px solid firebrick;
+    width: 100%;
+    font-size: 40px;
+    background: #8885856b;
+    padding: 1.9rem;
+}
+
+.calculator{
+    margin-top: 20px;
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+}
+
+
+.numeros{
+    display: flex;
+    border: 3px solid gray;
+    align-items:center ;
+    justify-content:space-between;
+}
+
+.numeros button{
+padding: 20px;
+flex: 1;
+} */
+
