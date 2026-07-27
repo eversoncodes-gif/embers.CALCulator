@@ -17,6 +17,9 @@ body{
     min-height: 60vh;
     
 }
+main{
+    margin-top: 50px;
+}
 
 h1{
     text-align: center;
@@ -60,7 +63,7 @@ input{
 }
 
 .numeros{
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
     gap: 10px;
@@ -82,7 +85,7 @@ grid-column: span 2;
 }
 
 .acoes{
-    border: 3px red dotted;
+    /* border: 3px red dotted; */
     display: grid;
     gap: 7px;
     grid-template-columns: repeat(3,1fr);         
@@ -104,7 +107,7 @@ button:hover{
 }
 
 button:active{
-transform: scale(o.95);
+transform: scale(0.95);
 }
 /* cores especiais nesse caso dos operadores */
 .operador{
@@ -120,34 +123,3 @@ transform: scale(o.95);
     #limpar:hover, #percentagem:hover,#apagar:hover{
         background: #ff7a;
     }
-/* 
-
-
-button:hover{
-    background: #4f5170;
-    transform: translateY(-2px);
-}
-
-button:active{
-    transform: scale(0.95);
-}
-
-/* cores especiais 
-.operador{
-    background: #ff7a45;
-}
-.operador:hover{
-    background: #ff955f;
-}
-
-#limpar, #apagar, #percentagem{
-    background: #ff4d6d;
-}
-#limpar:hover, #apagar:hover, #percentagem:hover{
-    background: #ff738d;
-}*/
-
-/* botão 0 maior 
-.numeros button:nth-child(10){
-    grid-column: span 2;
-} */
