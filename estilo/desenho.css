@@ -100,6 +100,7 @@ button{
     cursor: pointer;
     border: none;
     transition: 0.12s;
+    cursor: pointer;
 }
 button:hover{
     background-color: #4f5170;
@@ -114,7 +115,7 @@ transform: scale(0.95);
     background: #ff7a4f;
 }
 .operador:hover{
-    background: #ff7a;
+    background: #ff9675;
 }
 #limpar, #percentagem,#apagar{
     background: #ff4d6d;
