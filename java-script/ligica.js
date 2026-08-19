@@ -15,17 +15,16 @@ botoes.forEach(botao => {
 operadores.forEach(operador=>
     {
     operador.addEventListener("click",()=>{
-        let valor=operador.textContent;
-        if (valor ==="&times") 
-            {
-            valor ="*";
-            }
-        if (valor ==="&divide") 
-            {
-                valor="/";
-            }
-        display.value +=
-    operador.textContent})});
+        // let valor=operador.textContent;
+        // if (valor ==="×") 
+        //     {
+        //     valor ="*";
+        //     }
+        // if (valor ==="÷") 
+        //     {
+        //         valor="/";
+        //     }
+        display.value +=valor})});
 
 //aqui a parte do apagar onde so pego a minha variavel limpar acima do codigo e resolvo com 
 limpar.addEventListener("click",() =>{display.value =""})
@@ -41,7 +40,7 @@ apagarUm.addEventListener("click",()=>{
 // operador de igual a parte que estou desenvolvendo    
 igual.addEventListener("click",()=>{
     const espressao=display.value;
-    console.log(espresao);
+    console.log(espressao);
 })
 
 
